@@ -1,2 +1,26 @@
 cout<<"My name is : "<<"Hassan";
 cout <<"My roll no is : "<<"82";
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Declare two variables to store numbers
+        int num1, num2, difference;
+
+        // Get user input for the first number
+        Console.Write("Enter the first number: ");
+        num1 = Convert.ToInt32(Console.ReadLine());
+
+        // Get user input for the second number
+        Console.Write("Enter the second number: ");
+        num2 = Convert.ToInt32(Console.ReadLine());
+
+        // Subtract the numbers
+        difference = num1 - num2;
+
+        // Display the result
+        Console.WriteLine("The difference between {0} and {1} is: {2}", num1, num2, difference);
+    }
+}
