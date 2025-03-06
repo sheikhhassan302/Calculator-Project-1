@@ -1,2 +1,71 @@
 cout<<"My name is : "<<"Hassan";
 cout <<"My roll no is : "<<"82";
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Declare two variables to store numbers
+ Subtraction
+ Multiplication
+Division
+        double num1, num2, quotient;
+
+        // Get user input for the first number
+        Console.Write("Enter the first number: ");
+        num1 = Convert.ToDouble(Console.ReadLine());
+
+        // Get user input for the second number
+        Console.Write("Enter the second number: ");
+        num2 = Convert.ToDouble(Console.ReadLine());
+
+        // Check if the second number is zero to avoid division by zero
+        if (num2 != 0)
+        {
+            // Perform the divisio
+
+        int num1, num2, product;
+
+        int num1, num2, difference;
+ Subtraction
+
+        int num1, num2, sum;
+ Addition
+
+        // Get user input for the first number
+        Console.Write("Enter the first number: ");
+        num1 = Convert.ToInt32(Console.ReadLine());
+
+        // Get user input for the second number
+        Console.Write("Enter the second number: ");
+        num2 = Convert.ToInt32(Console.ReadLine());
+
+Subtraction
+ Multiplication
+        // Multiply the numbers
+        product = num1 * num2;
+
+        // Display the result
+        Console.WriteLine("The product of {0} and {1} is: {2}", num1, num2, product);
+    }
+}
+ Multiplication
+
+        // Subtract the numbers
+        difference = num1 - num2;
+
+        // Display the result
+        Console.WriteLine("The difference between {0} and {1} is: {2}", num1, num2, difference);
+    }
+}
+ Subtraction
+
+        // Add the numbers
+        sum = num1 + num2;
+
+        // Display the result
+        Console.WriteLine("The sum of {0} and {1} is: {2}", num1, num2, sum);
+    }
+}
+ Addition
