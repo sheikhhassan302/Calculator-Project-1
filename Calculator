@@ -1,6 +1,10 @@
 cout<<"My name is : "<<"Hassan";
 cout <<"My roll no is : "<<"82";
+ Conflict_branch-2
 cout <<"my fav fruit is : "<<"apple";
+
+cout <<"my fav fruit is : "<<"Pineapple";
+ main
 using System;
 
 class Program
