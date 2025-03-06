@@ -7,6 +7,22 @@ class Program
     static void Main()
     {
         // Declare two variables to store numbers
+Division
+        double num1, num2, quotient;
+
+        // Get user input for the first number
+        Console.Write("Enter the first number: ");
+        num1 = Convert.ToDouble(Console.ReadLine());
+
+        // Get user input for the second number
+        Console.Write("Enter the second number: ");
+        num2 = Convert.ToDouble(Console.ReadLine());
+
+        // Check if the second number is zero to avoid division by zero
+        if (num2 != 0)
+        {
+            // Perform the divisio
+
         int num1, num2, product;
 
         // Get user input for the first number
@@ -24,3 +40,4 @@ class Program
         Console.WriteLine("The product of {0} and {1} is: {2}", num1, num2, product);
     }
 }
+ Multiplication
