@@ -1,5 +1,6 @@
 cout<<"My name is : "<<"Hassan";
 cout <<"My roll no is : "<<"82";
+cout <<"my fav fruit is : "<<"Pineapple";
 using System;
 
 class Program
