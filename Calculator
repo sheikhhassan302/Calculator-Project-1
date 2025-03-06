@@ -7,6 +7,7 @@ class Program
     static void Main()
     {
         // Declare two variables to store numbers
+ Subtraction
  Multiplication
 Division
         double num1, num2, quotient;
@@ -29,6 +30,9 @@ Division
         int num1, num2, difference;
  Subtraction
 
+        int num1, num2, sum;
+ Addition
+
         // Get user input for the first number
         Console.Write("Enter the first number: ");
         num1 = Convert.ToInt32(Console.ReadLine());
@@ -37,6 +41,7 @@ Division
         Console.Write("Enter the second number: ");
         num2 = Convert.ToInt32(Console.ReadLine());
 
+Subtraction
  Multiplication
         // Multiply the numbers
         product = num1 * num2;
@@ -55,3 +60,12 @@ Division
     }
 }
  Subtraction
+
+        // Add the numbers
+        sum = num1 + num2;
+
+        // Display the result
+        Console.WriteLine("The sum of {0} and {1} is: {2}", num1, num2, sum);
+    }
+}
+ Addition
